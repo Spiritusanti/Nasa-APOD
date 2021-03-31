@@ -20,7 +20,7 @@ function showContent(page) {
         behavior: 'instant'
     });
     loader.classList.add('hidden');
-    if(page === 'results') {
+    if (page === 'results') {
         resultsNav.classList.remove('hidden');
         favoritesNav.classList.add('hidden');
         } else {
